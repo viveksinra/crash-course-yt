@@ -1,0 +1,190 @@
+/* *{
+    margin: 0%;
+} */
+body{
+    background-color: #f4f4f4;
+    color:#555555;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+/* above 3 in 1 go */
+font: normal 16px Arial, Helvetica, sans-serif ;
+
+    line-height: 1.5em;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: #555555;
+}
+
+a:hover{
+    font-size: 20px;
+    color: aqua;
+}
+a:active{
+    color: red;
+}
+
+
+.box-1{
+    background-color: #555555;
+    color: #f4f4f4;
+
+    border: 5px red solid;
+    border-bottom: 15px red solid;
+    border-top-style:dotted ;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin-top: 20px;
+}
+.box-1:hover{
+    background-color: #f4f4f4;
+    color: #333;
+}
+.box-1 h1{
+    color: red;
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    word-spacing: 1em;    
+}
+
+
+
+.box-2{
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0 20px 0;
+}
+
+.cate{
+    border: 1px solid #ccc;
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 25px;
+    border-bottom-left-radius: 0px;
+    
+}
+
+.cate h2{
+    text-align: center;
+}
+
+.cate ol{
+    padding: 7px;
+    list-style: square;
+    list-style: none;
+}
+
+.cate li{
+    padding-bottom: 7px;
+    border-bottom: dotted 1px #333;
+}
+
+.my-form{
+    padding: 20px;
+}
+.my-form .form-grp{
+    padding-bottom: 12px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width:100%
+}
+
+.my-form input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.block{
+    float:left;
+    width:25%;
+    border:1px solid #333;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+
+    
+}
+
+.v-box{
+    width: 400px;
+    height: 300px;
+    border: 1px solid #000;
+    position: relative;
+    background-image: url('../images/img2.jpg');
+    background-repeat: no-repeat;
+    background-position: 10px 20px;
+    background-position: center top;
+}
+
+.v-box h1{
+    position: absolute;
+    top: 140px;
+    left: 100px;
+}
+
+.v-box h3{
+    position: absolute;
+    bottom: 10px;
+    right:650px
+}
+
+.fix{
+    position: fixed;
+    top: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.my-ul li:first-child{
+        background: red;
+}
+.my-ul li:last-child{
+        background: green;
+}
+.my-ul li:nth-child(4){
+        background: red;
+}
+.my-ul li:nth-child(even){
+        background: red;
+}
+.my-ul li:nth-child(odd){
+        background: green;
+}
+
